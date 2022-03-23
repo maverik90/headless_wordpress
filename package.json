@@ -1,0 +1,46 @@
+{
+  "name": "react_headless",
+  "version": "1.0.0",
+  "description": "React JS setup for headless wordpress",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/maverik90/headless_wordpress.git"
+  },
+  "keywords": [
+    "react",
+    "wordpress",
+    "headless"
+  ],
+  "author": "Mirza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maverik90/headless_wordpress/issues"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "jest": "^27.5.1",
+    "jest-cli": "^27.5.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
